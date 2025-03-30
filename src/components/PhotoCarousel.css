@@ -1,0 +1,12 @@
+.photo-carousel {
+    background-color: #e6e6fa; /* Light purple background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px; /* Adjust the max-width to make the carousel smaller */
+    margin: 0 auto; /* Center the carousel */
+}
+
+.photo-carousel .carousel .slide img {
+    max-height: 400px; /* Adjust the max-height to fit the screen nicely */
+    object-fit: cover;
+}

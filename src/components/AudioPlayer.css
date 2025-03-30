@@ -1,0 +1,30 @@
+.audio-player {
+    background-color: #ffd0f8; /* pastel pink */
+    color: #6a0dad; /* pastel purple */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%; /* Set a specific width */
+    max-width: 320px; /* Optional: Set a maximum width */
+    margin: 0 auto; /* Center the audio player */
+}
+
+.audio-player button {
+    background-color: #d8bfd8; /* pastel purple */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.audio-player button:hover {
+    background-color: #dda0dd; /* slightly darker pastel purple */
+}
+
+.audio-player audio {
+    width: 100%;
+    margin-top: 10px;
+}

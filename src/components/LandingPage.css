@@ -1,0 +1,96 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.audio-player-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.content-container {
+    display: flex;
+    flex: 1;
+}
+
+.left-side {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-left: 200px; /* Add padding to move the text to the right */
+}
+
+.message-container {
+    font-family: 'Dancing Script', cursive; /* More readable Mother's Day styled font */
+    color: #934bc8; /* Pastel purple color */
+    text-align: center;
+}
+
+.message-container h1 {
+    font-size: 4em;
+    margin-bottom: 10px;
+}
+
+.message-container p {
+    font-size: 2em;
+}
+
+.right-side {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-frame {
+    max-width: 300px; /* Adjust the max-width to make the frame smaller */
+    margin: 20px; /* Add margin to create padding around the frame */
+    padding: 20px;
+    border: 5px solid rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+    transition: box-shadow 0.3s ease;
+}
+
+.photo-frame img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.photo-frame:hover {
+    box-shadow: 0 0 25px rgba(255, 255, 255, 1);
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+    }
+
+    .left-side {
+        padding-left: 20px;
+    }
+
+    .message-container h1 {
+        font-size: 2em;
+    }
+
+    .message-container p {
+        font-size: 1.5em;
+    }
+
+    .photo-frame {
+        max-width: 200px;
+        margin: 10px;
+        padding: 10px;
+    }
+}
